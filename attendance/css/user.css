@@ -1,0 +1,95 @@
+body {
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oswald, sans-serif;
+}
+
+
+@media screen and (max-height: 450px) {}
+
+
+
+
+.blink {
+    color: #ffffff;
+    padding-bottom: 15px;
+
+}
+
+.head-style {
+    background-color: brown;
+}
+
+.card-footer span {
+
+
+    animation: blink 1s linear infinite;
+}
+
+.card a {
+    color: #fff;
+}
+
+.list-group-item-light {
+    text-align: center;
+
+    color: #ffffff;
+    background-image: linear-gradient(to right top, #b8bec6, #aab6ba, #a0adac, #99a39d, #959890);
+}
+
+.list-group-item-light h5 {
+    text-align: center;
+
+}
+
+.notice .badge-success {
+    cursor: pointer;
+}
+
+.notice {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #cccccc40;
+
+}
+
+footer h5 {
+    font-size: 13px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.modal img {
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background: cover;
+
+}
+
+.modal .modal-title h5 {
+    font-size: 15px;
+    text-align: center;
+    padding-left: 10px;
+
+}
+
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

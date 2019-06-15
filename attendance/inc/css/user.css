@@ -1,0 +1,182 @@
+body {
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ font-family: Oswald, sans-serif;
+}
+
+.user img {
+
+    height: 80px;
+    width: 80px;
+    background-repeat: no-repeat;
+}
+
+.sidenav {
+    border: none;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0px;
+}
+
+.sidenav .active {
+    height: 220px;
+    background-image: linear-gradient(to right top, #355078, #32598f, #2e62a7, #296bbf, #2573d8);
+    color: #ffff;
+    transition: 0.3s;
+}
+
+.sidenav .active h5 {
+    padding-top: 6px;
+    font-family: 'Oswald', sans-serif;
+
+
+
+}
+
+.sidenav li a {
+    color: #296CC0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 1px;
+    font-weight: 100;
+
+}
+
+.sidenav .active img {
+    transition: 0.5s;
+    width: 60%;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.1s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/*
+.huge {
+    font-size: 20px !important;
+}
+*/
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 0px;
+    }
+
+    .sidenav a {
+        font-size: 14px;
+    }
+}
+
+
+
+
+.blink {
+  color: #ffffff;
+   padding-bottom: 15px;
+  
+}
+.head-style{
+    background-color: brown;
+}
+.card-footer span {
+
+
+    animation: blink 1s linear infinite;
+}
+.card a{
+    color: #fff;
+}
+
+.list-group-item-light{
+    text-align: center;
+
+    color: #ffffff;
+background-image: linear-gradient(to right top, #b8bec6, #aab6ba, #a0adac, #99a39d, #959890);
+}
+
+.list-group-item-light h5{
+    text-align: center;
+    
+}
+
+.notice .badge-success{
+cursor: pointer;
+}
+
+.notice{
+    margin-top: 30px;
+margin-bottom: 50px;}
+
+footer{
+    background-color: #cccccc40;
+    
+}
+footer h5{
+    font-size: 13px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.modal img{
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background: cover;
+    
+}
+.modal .modal-title h5{
+font-size: 15px;
+text-align: center;
+    padding-left: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

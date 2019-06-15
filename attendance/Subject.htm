@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/User.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/Attaindance.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="mySidenav" class="sidenav mt-0">
+        <ul class="list-group active">
+            <li onclick="closeNav()" class=" active list-group-item d-flex justify-content-between align-items-center">
+                <span class="clpsebtn badge badge-primary badge-pill"></span>
+
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-xs-12">
+                            <img src="img/logo.jpg">
+                        </div>
+
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-xs-12">
+                            <h5>Welcome | <span>dimentionDx</span></h5>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </li>
+
+
+            <li class="  list-group-item d-flex justify-content-between align-items-center">
+                <a href="#"><i class="fas fa-home"></i> Home</a>
+                <span class="badge badge-primary badge-pill">12</span>
+            </li>
+
+
+
+            <li class="  list-group-item d-flex justify-content-between align-items-center">
+                <a href="#"><i class="fas fa-clipboard"></i> Attaindance</a>
+                <span class="badge badge-primary badge-pill">12</span>
+            </li>
+
+
+
+            <li class="  list-group-item d-flex justify-content-between align-items-center">
+                <a href="#"><i class="fas fa-rss-square"></i> Blog</a>
+                <span class="badge badge-primary badge-pill">12</span>
+            </li>
+
+
+
+            <li class="  list-group-item d-flex justify-content-between align-items-center">
+                <a href="#"><i class="fas fa-flag-checkered"></i> Notice</a>
+                <span class="badge badge-primary badge-pill">12</span>
+            </li>
+
+
+            <li class="  list-group-item d-flex justify-content-between align-items-center">
+                <a href="#"><i class="fas fa-question-circle"></i> Quiz</a>
+                <span class="badge badge-primary badge-pill">12</span>
+            </li>
+            <li class="  list-group-item d-flex justify-content-between align-items-center">
+                <a href="#"><i class="fas fa-question-circle"></i> xyz</a>
+                <span class="badge badge-primary badge-pill">12</span>
+            </li>
+            <li class="  list-group-item d-flex justify-content-between align-items-center">
+                <a href="#"><i class="fas fa-question-circle"></i> xyz</a>
+                <span class="badge badge-primary badge-pill">12</span>
+            </li>
+
+
+        </ul>
+    </div>
+    <hr>
+
+
+
+    <div class="container-fluid header " style="background: #ffffff;">
+
+        <div class="row">
+            <div class="col-6 d-flex">
+                <span style="font-size:22px;cursor:pointer;padding-left: 15px; color: #487996 ;line-height: 75px" onclick="openNav()">&#9776; </span>
+                <h5 style="line-height: 75px; font-style: bold; font-family: 'Oswald', sans-serif;     font-size: 1.25rem !important; padding-left: 8px; color:#296CC0;">MY SIEM </h5>
+            </div>
+            <div class="col-3 d-flex"></div>
+            <div class="col-3 d-flex controls">
+                <h5 style="line-height: 84px; color: #487996; padding-right: 6px"><i class="fas fa-user-cog"></i></h5>
+                <h5><i style=" line-height: 84px; color: #487996;" class="fas fa-power-off"></i></h5>
+            </div>
+        </div>
+    </div>
+    <style>
+        .home h1 {
+            color: #296CC0;
+            font-size: 30px;
+        }
+
+    </style>
+    <div class="container-fluid">
+        <div class="container home">
+            <h1><i class="fa fa-tachometer"> </i> Dashboard <small style="color: #999999;">Attaindance</small></h1>
+            <hr>
+        </div>
+        <ol class="breadcrumb active">
+            <li>SELECT DEPARTMENT</li>
+        </ol>
+    </div>
+
+
+
+
+    <div class="container panel-1">
+        <div class="row">
+            <div class="col-md-4 dept-title">
+                <h4>COMPUTER SCIENCE AND ENGINEERING</h4>
+            </div>
+            <div class="col-md-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-info text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">FIRST YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-success text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">SECOND YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-secondary text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">THIRD YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-dark text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">FOURTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-primary text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">FIFTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-danger text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">SIXTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-warning text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">SEVENTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-light text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">EIGHTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container panel-1 dx">
+        <div class="row">
+            <div class="col-md-4 dept-title">
+                <h4>ELECTRONICS AND COMMUNICATION</h4>
+            </div>
+            <div class="col-md-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-info text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">FIRST YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-success text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">SECOND YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-secondary text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">THIRD YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-dark text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">FOURTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-primary text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">FIFTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-danger text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">SIXTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-warning text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">SEVENTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-light text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">EIGHTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container panel-1 dx">
+        <div class="row">
+            <div class="col-md-4 dept-title">
+                <h4>ELECTRICAL ENGINEERING</h4>
+            </div>
+            <div class="col-md-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-info text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">FIRST YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-success text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">SECOND YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-secondary text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">THIRD YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-dark text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">FOURTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-primary text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">FIFTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-danger text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">SIXTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-warning text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">SEVENTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-light text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">EIGHTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container panel-1 dx">
+        <div class="row">
+            <div class="col-md-4 dept-title">
+                <h4>MECHANICAL ENGINEERING</h4>
+            </div>
+            <div class="col-md-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-info text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">FIRST YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-success text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">SECOND YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-secondary text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">THIRD YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-dark text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">FOURTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-primary text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">FIFTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-danger text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">SIXTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-warning text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">SEVENTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-light text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">EIGHTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container panel-1 dx">
+        <div class="row">
+            <div class="col-md-4 dept-title">
+                <h4>CIVILENGINEERING</h4>
+            </div>
+            <div class="col-md-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-info text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">FIRST YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-success text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">SECOND YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-secondary text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">THIRD YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-dark text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">FOURTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-primary text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">FIFTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-danger text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">SIXTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card bg-warning text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">SEVENTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card bg-light text-white" data-toggle="modal" data-target="#myModal">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">EIGHTH YEAR</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">SELECT SUBJECT</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row subjects">
+                            <div class="col-md-3 col-6">
+                                <h5>Computer Organisation</h5>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <h5>C Programming</h5>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <h5>Data Structure</h5>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <h5>Java</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <footer class="mt-3">
+
+        <h5>All rights reserved 2019, SIEM SILIGURI.</h5>
+    </footer>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "60%";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        </body>
+
+        </html>

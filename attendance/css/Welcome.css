@@ -1,0 +1,122 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+}
+
+.bg {
+    position: relative;
+    background-image: url(../img/maxresdefault.jpg);
+
+
+    height: 100%;
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+}
+
+
+.label {
+     text-shadow: -1px 2px 2px #7E3823;
+    font-size: 50PX;
+    color: #ffffff;
+    z-index: 999;
+    position: absolute;
+    border: none;
+    width: 400px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -150PX;
+}
+
+.logo {
+    background-image: url(../img/logo.jpg);
+    border-radius: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40%;
+    width: 40%;
+}
+
+
+
+
+
+.lds-ellipsis {
+    display: inline-block;
+
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+
+.lds-ellipsis div {
+    position: absolute;
+    top: 27px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #fff;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.lds-ellipsis div:nth-child(1) {
+    left: 6px;
+    animation: lds-ellipsis1 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(2) {
+    left: 6px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(3) {
+    left: 26px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(4) {
+    left: 45px;
+    animation: lds-ellipsis3 0.6s infinite;
+}
+
+@keyframes lds-ellipsis1 {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes lds-ellipsis3 {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes lds-ellipsis2 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(19px, 0);
+    }
+}
